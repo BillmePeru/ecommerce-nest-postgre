@@ -38,6 +38,7 @@ The Swagger documentation provides:
 - Node.js (v18 or higher)
 - PostgreSQL (v12 or higher)
 - npm or yarn
+- Create an account in [Billme](https://billmeperu.com)
 
 ## 🚀 Quick Start
 
