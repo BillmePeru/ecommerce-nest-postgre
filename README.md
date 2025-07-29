@@ -7,7 +7,7 @@ A comprehensive e-commerce API built with NestJS, PostgreSQL, and TypeORM. This 
 - **Customer Management**: Create, read, update, and delete customer records with document validation
 - **Product Catalog**: Manage products with inventory tracking and categorization
 - **Order Processing**: Complete order lifecycle management with status tracking
-- **Billing Integration**: Automated billing and invoice generation with external API integration
+- **Billing Integration**: Automated billing to SUNAT and invoice generation with external API integration
 - **Health Monitoring**: Application health checks with database connectivity status
 - **API Documentation**: Interactive Swagger/OpenAPI documentation
 
@@ -75,8 +75,8 @@ DB_POOL_SIZE=5
 DB_CONNECTION_TIMEOUT=10000
 DB_MAX_QUERY_TIME=5000
 
-# Billing API (Optional)
-BILLME_API_URL=https://api.billme.com
+# Billing API (Comunication with SUNAT)
+BILLME_API_URL=https://www.api.billmeperu.com/api/v1/Emission
 BILLME_API_KEY=your_api_key
 COMPANY_NAME=Your Company Name
 COMPANY_DOCUMENT_NUMBER=20123456789
@@ -196,18 +196,6 @@ src/
 | `DB_USERNAME` | Database username | `postgres` | Yes |
 | `DB_PASSWORD` | Database password | - | Yes |
 | `DB_NAME` | Database name | `ecommerce` | Yes |
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🆘 Support
 
